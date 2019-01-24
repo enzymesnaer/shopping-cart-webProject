@@ -58,8 +58,14 @@
     <title></title>
   </head>
   <body>
-    <form action="" method="post">
+    <br>
+    <span style="font-family: Comic Sans MS;float:right;padding-right:8px;">
+      <a href="cartbtn.php" style="border:1px; float:left;"><button style="border:1px; float:left; border-radius:115px;"><img src="ico/cart.png" width="30" height="30"></button></a>
 
+      <a href="index.php" style="border:1px; float:left;"><button style="border:1px; border-radius:115px;"><img src="ico/home.png" width="30" height="30"></button></a>
+    </span>
+
+    <form action="" method="post"><br><br><br>
   <div class="container">
     <label for="username"><b>Username</b></label>
     <input type="text" placeholder="Enter Username" name="username" required>
