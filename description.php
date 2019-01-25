@@ -5,7 +5,7 @@
   {
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.open("GET","addtocart.php?prod_id="+value,true);
-    xmlhttp..send();
+    xmlhttp.send();
 
     xmlhttp.onreadystatechange=function(){
 
